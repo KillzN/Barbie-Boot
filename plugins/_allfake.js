@@ -9,7 +9,7 @@ let img = catalogo
     forwardedNewsletterMessageInfo: {
       newsletterJid: "12098765423@newsletter",
       serverMessageId: 100,
-      newsletterName: '𝗞𝗜𝗟𝗟 𝗕𝗢𝗧',
+      newsletterName: '𝐁𝐚𝐫𝐛𝐢𝐜𝐢𝐭𝐚 𝐁𝐨𝐭',
     },
 	    externalAdReply: {
 				    showAdAttribution: true,
@@ -18,7 +18,7 @@ let img = catalogo
 					mediaUrl: null,
 					description: null,
 					previewType: "PHOTO",
-					thumbnailUrl: 'https://i.ibb.co/qFTp64d/KILLZN-min.png',
+					thumbnailUrl: 'https://i.ibb.co/mXKFBNn/Barbiee.jpg',
 		           sourceUrl: canal,
 		           mediaType: 1,
                    renderLargerThumbnail: false

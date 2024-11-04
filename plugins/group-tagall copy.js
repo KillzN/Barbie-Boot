@@ -9,17 +9,17 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
     var member = 0;
   }
   const pesan = args.join` `;
-  const oi = `*𝗠𝗘𝗡𝗖𝗜𝗢𝗡 𝗚𝗘𝗡𝗘𝗥𝗔𝗟: * ${pesan}`;
-  let teks = `*𝗣𝗘𝗥𝗦𝗜𝗚𝗨𝗘 𝗧𝗨𝗦 𝗠𝗘𝗧𝗔𝗦 , 𝗡𝗢 𝗖𝗔𝗖𝗛𝗢𝗦 𝗠𝗢𝗡𝗚𝗢𝗟@ 🫦*\n\n *${oi}\n\n➥ _*𝗕𝗮𝗿𝗯𝗶𝗰𝗶𝘁𝗮 𝗶𝗻𝘃𝗼𝗰𝗮𝗻𝗱𝗼 , 𝗹𝗲𝘃𝗮𝗻𝘁𝗲𝗻 𝗶𝗻𝘀𝗲𝗿𝘃𝗶𝗯𝗹𝗲𝘀*_\n`;
+  const oi = `*𝗠𝗜 𝗖𝗥𝗘𝗔𝗗𝗢𝗥𝗔 𝗟𝗘𝗦 𝗠𝗔𝗡𝗗𝗔 𝗕𝗘𝗦𝗢𝗦 𝗘𝗡 𝗟𝗔 𝗖𝗢𝗟𝗔, 𝗟𝗜𝗡𝗗𝗨𝗥𝗔𝗦*`;
+  let teks = `*𝗕𝗔𝗥𝗕𝗜𝗖𝗜𝗧𝗔 𝗕𝗢𝗧 🫦.*\n\n *${oi}\n\n➥ _*𝗠𝗘𝗡𝗖𝗜𝗢𝗡 𝗚𝗘𝗡𝗘𝗥𝗔𝗟: ${pesan}*_\n`;
   for (const mem of participants) {
-    teks += `*🎀 ⇝* @${mem.id.split('@')[0]}\n`;
+    teks += `*ʚ💗ɞ* @${mem.id.split('@')[0]}\n`;
   }
   teks += `*└𝙱ᴀʀʙɪᴇ𝙱ᴏᴛ ★ ɪɢ : @xbarbicita.7*`;
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.id)} );
 };
 handler.help = ['tagall <mesaje>', 'invocar <mesaje>'];
 handler.tags = ['group'];
-handler.command = /^(tagall|invocar|marcar|todos|invocación|ta)$/i;
+handler.command = /^(tagall1|invocar1|marcar1|todos1|invocación1|ta1)$/i;
 handler.admin = true;
 handler.group = true;
 export default handler;

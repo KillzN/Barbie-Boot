@@ -18,9 +18,9 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/KillzN/DevXD",
+  "homepage": "https://github.com/Barbie/DevXD",
   "author": {
-    "name": "KillzN"
+    "name": "Barbie"
   },
   "repository": {
     "type": "git",
