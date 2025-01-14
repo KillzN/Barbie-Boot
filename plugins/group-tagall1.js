@@ -9,12 +9,12 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
     var member = 0;
   }
   const pesan = args.join` `;
-  const oi = `*𝗠𝗜 𝗖𝗥𝗘𝗔𝗗𝗢𝗥𝗔 𝗟𝗘𝗦 𝗠𝗔𝗡𝗗𝗔 𝗕𝗘𝗦𝗢𝗦 𝗘𝗡 𝗟𝗔 𝗖𝗢𝗟𝗔, 𝗟𝗜𝗡𝗗𝗨𝗥𝗔𝗦*`;
-  let teks = `*𝗕𝗔𝗥𝗕𝗜𝗖𝗜𝗧𝗔 𝗕𝗢𝗧 🫦.*\n\n *${oi}\n\n➥ _*𝗠𝗘𝗡𝗖𝗜𝗢𝗡 𝗚𝗘𝗡𝗘𝗥𝗔𝗟: ${pesan}*_\n`;
+  const oi = `𝗠𝗘𝗡𝗖𝗜𝗢𝗡 𝗚𝗘𝗡𝗘𝗥𝗔𝗟:*  ${pesan}`;
+  let teks = `*𝙎𝙊𝙔 𝙇𝘼 𝙈𝙀𝙅𝙊𝙍 𝘼𝙐𝙉𝙌𝙐𝙀 𝙏𝙀 𝘼𝙍𝘿𝘼 𝙀𝙎𝙀 𝙉̃𝙊𝘾𝙊🍑*\n\n *${oi}\n\n➥ _*𝙎𝙠𝙮𝙘𝙞𝙩𝙖 𝙞𝙣𝙫𝙤𝙘𝙖𝙣𝙙𝙤 𝙖 𝙡𝙖𝙨 𝙢𝙖́𝙨 𝙗𝙚𝙡𝙡𝙖𝙨 𝙙𝙚 𝙡𝙖 𝙧𝙚𝙜𝙞𝙤́𝙣*_\n`;
   for (const mem of participants) {
-    teks += `*ʚ💗ɞ* @${mem.id.split('@')[0]}\n`;
+    teks += `*💗.ᐟ* @${mem.id.split('@')[0]}\n`;
   }
-  teks += `*└𝙱ᴀʀʙɪᴇ𝙱ᴏᴛ ★ ɪɢ : @xbarbicita.7*`;
+  teks += `*└SᴋʏᴄɪᴛxBᴏᴛ ★ ɪɢ : @xskycita.7*`;
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.id)} );
 };
 handler.help = ['tagall <mesaje>', 'invocar <mesaje>'];

@@ -10,7 +10,7 @@ import moment from 'moment-timezone'
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.owner = [
-  ['593978755741', 'Barbie', true],
+  ['593978755741', 'xSkycita', true],
   ['593978755741'],
   ['593978755741'],
   ['593978755741']
@@ -23,13 +23,13 @@ global.prems = []
    
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = `𝐁𝐚𝐫𝐛𝐢𝐜𝐢𝐭𝐚 𝐁𝐨𝐭`
-global.author = '{\n "𝗕𝗢𝗧": {\n   "name": 𝐁𝐚𝐫𝐛𝐢𝐜𝐢𝐭𝐚 𝐁𝐨𝐭",\n     "author": "Anuar",\n   "status_bot": "active"\n }\n}'
+global.packname = `𝙭𝙎𝙠𝙮𝙘𝙞𝙩𝙖 𝐁𝐨𝐭`
+global.author = '{\n "𝗕𝗢𝗧": {\n   "name": 𝙭𝙎𝙠𝙮𝙘𝙞𝙩𝙖 𝐁𝐨𝐭",\n     "author": "Anuar",\n   "status_bot": "active"\n }\n}'
 global.wait = 'KILL  ᡣ𐭩'
-global.botname = '𝐁𝐚𝐫𝐛𝐢𝐜𝐢𝐭𝐚 𝐁𝐨𝐭  ᡣ𐭩'
-global.textbot = `@xbarbicita.7 `
+global.botname = '𝙭𝙎𝙠𝙮𝙘𝙞𝙩𝙖 𝐁𝐨𝐭  ᡣ𐭩'
+global.textbot = `@xskycita.7 `
 global.listo = 'Completado ✯'
-global.namechannel = '𝐁𝐚𝐫𝐛𝐢𝐜𝐢𝐭𝐚 𝐁𝐨𝐭'
+global.namechannel = '𝙭𝙎𝙠𝙮𝙘𝙞𝙩𝙖 𝐁𝐨𝐭'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
@@ -38,8 +38,8 @@ global.miniurl = fs.readFileSync('./storage/img/siskedurl.jpg')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.group = 'instagram.com/xbarbicita.7 '
-global.canal = 'instagram.com/xbarbicita.7 '
+global.group = 'instagram.com/xskycita.7 '
+global.canal = 'instagram.com/xskycita.7 '
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 

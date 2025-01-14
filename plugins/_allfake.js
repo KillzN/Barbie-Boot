@@ -9,7 +9,7 @@ let img = catalogo
     forwardedNewsletterMessageInfo: {
       newsletterJid: "12098765423@newsletter",
       serverMessageId: 100,
-      newsletterName: '𝐁𝐚𝐫𝐛𝐢𝐜𝐢𝐭𝐚 𝐁𝐨𝐭',
+      newsletterName: '𝙭𝙎𝙠𝙮𝙘𝙞𝙩𝙖 𝐁𝐨𝐭',
     },
 	    externalAdReply: {
 				    showAdAttribution: true,
@@ -18,7 +18,7 @@ let img = catalogo
 					mediaUrl: null,
 					description: null,
 					previewType: "PHOTO",
-					thumbnailUrl: 'https://i.ibb.co/mXKFBNn/Barbiee.jpg',
+					thumbnailUrl: 'https://ibb.co/J3bvfQP',
 		           sourceUrl: canal,
 		           mediaType: 1,
                    renderLargerThumbnail: false

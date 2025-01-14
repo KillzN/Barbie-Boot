@@ -18,9 +18,9 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/Barbie/DevXD",
+  "homepage": "https://github.com/xSkycita/DevXD",
   "author": {
-    "name": "Barbie"
+    "name": "xSkycita"
   },
   "repository": {
     "type": "git",

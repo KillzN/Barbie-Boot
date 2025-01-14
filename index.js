@@ -82,4 +82,4 @@ async function start(files) {
   }
 }
 
-start(['Barbie.js'])
+start(['xSkycita.js'])
